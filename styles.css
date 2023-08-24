@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.content-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.info-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-column, .last-column {
+    width: 200px;
+}
+
+.text-column {
+    width: 600px;
+}
+
